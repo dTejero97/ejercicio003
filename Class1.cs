@@ -8,5 +8,10 @@ namespace ejercicio003
         {
             return 42;
         }
+
+        public String devolverCadena(String cadena)
+        {
+            return cadena.Trim();
+        }
     }
 }
