@@ -1,8 +1,9 @@
-﻿using System;
+﻿using CLCalculos;
+using System;
 
 namespace Calculos
 {
-    public class Calculadora
+    public abstract class Calculadora : ICalculadora
     {
         public int devolverValor()
         {
@@ -12,6 +13,16 @@ namespace Calculos
         public String devolverCadena(String cadena)
         {
             return cadena.Trim();
+        }
+
+        public int Casa()
+        {
+            return 0;
+        }
+
+        public int DevolverValor()
+        {
+            return 0;
         }
     }
 }
