@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace ejercicio003
+namespace Calculos
 {
-    public class Class1
+    public class Calculadora
     {
         public int devolverValor()
         {
